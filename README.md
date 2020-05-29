@@ -1,8 +1,7 @@
 # World Robot Summit 2019 Packages for MobileRB5
 
-src="/images/wrs_slam.png" align="left" width="320" ></a>
-<a alt="indoor navigation" href="https://www.youtube.com/watch?v=6xdlTAI88cQ"><img src="/images/marker_Wrs.png" width="320" ></a>
-
+<a alt="indoor navigation" href="https://www.youtube.com/watch?v=6xdlTAI88cQ"><img src="/images/wrs_slam.png" align="left" width="320" ></a>
+<a alt="indoor navigation"><img src="/images/marker_Wrs.png" width="320" ></a>
 
 
 # Contents
