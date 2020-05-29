@@ -1,0 +1,39 @@
+<!--
+  Copyright 2016 The Cartographer Authors
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<launch>
+  <param name="/use_sim_time" value="false" />
+  <include file="$(find microstrain_3dm_gx5_45)/launch/microstrain_25.launch" />
+  <include file="/home/rainbow/catkin_ws/src/urg_node/launch/urg_lidar.launch" />
+  
+  <include file="$(find hubo_slam)/launch/hubo_2d.launch" />
+
+  <include file="$(find realsense2_camera)/launch/rs_hubo_multicamera.launch" />
+  <include file="/home/rainbow/catkin_ws/src/gony_aruco/KI_aruco_ros.launch" />
+  
+  <include file="/home/rainbow/catkin_ws/src/aruco_ros/aruco_ros/launch/marker_publisher.launch" />
+  
+
+  <node name="rqt_image_view" pkg="rqt_image_view" type="rqt_image_view" required="true" />
+
+   
+  <node name="rviz" pkg="rviz" type="rviz" required="true"
+      args="-d $(find hubo_slam)/configuration_files/hubo_2d_planning.rviz" />
+ 
+  
+
+</launch>
+

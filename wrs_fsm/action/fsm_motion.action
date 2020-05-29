@@ -1,0 +1,28 @@
+#goal definition
+int32 motion_cmd #MOTION_NONE,GRASPING,ALIGN,3 SHELFOUT,4 SHELFIN,5 DISPOSE,6 DetectOnShelf
+int32 shelf_side
+int32 shelf_floor
+int32 product_id
+float64 pose_x
+float64 pose_y
+float64 pose_z
+float64 ori_x
+float64 ori_y
+float64 ori_z
+float64 ori_w
+---
+#result definition
+int32 result_flag
+int32 found #0:none,1:old,2:over,3:new
+int32 product_id
+float64 pose_x
+float64 pose_y
+float64 pose_z
+float64 ori_x
+float64 ori_y
+float64 ori_z
+float64 ori_w
+
+---
+#feedback
+int32 dummy

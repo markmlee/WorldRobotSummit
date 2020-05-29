@@ -1,0 +1,2 @@
+#!/bin/bash
+rosrun rb5_ros_wrapper Grasp_motion 

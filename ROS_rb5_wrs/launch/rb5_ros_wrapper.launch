@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="rb5_ros_wrapper" pkg="rb5_ros_wrapper" type="rb5_ros_wrapper" output="screen" />
+  <node name="Grasp_motion"    pkg="rb5_ros_wrapper" type="Grasp_motion"    output="screen" />
+
+</launch>

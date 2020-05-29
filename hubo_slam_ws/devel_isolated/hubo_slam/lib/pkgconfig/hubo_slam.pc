@@ -1,0 +1,8 @@
+prefix=/home/rainbow/Desktop/hubo_slam_ws/devel_isolated/hubo_slam
+
+Name: hubo_slam
+Description: Description of hubo_slam
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/rainbow/Desktop/hubo_slam_ws/devel_isolated/hubo_slam/lib 
+Requires: 

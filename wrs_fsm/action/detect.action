@@ -1,0 +1,16 @@
+#goal definition
+int32 aruco_mode #0:navigation 1:object detection
+---
+#result definition
+int32 result_flag
+int32 product_id
+float64 pose_x
+float64 pose_y
+float64 pose_z
+float64 ori_x
+float64 ori_y
+float64 ori_z
+float64 ori_w
+---
+#feedback
+int32 dummy

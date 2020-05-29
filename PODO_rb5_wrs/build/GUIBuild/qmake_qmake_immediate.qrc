@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="1.png">/home/rainbow/Desktop/GitHub_RB5/rb5_wrs/rb5_gui/1.png</file>
+<file alias="2.png">/home/rainbow/Desktop/GitHub_RB5/rb5_wrs/rb5_gui/2.png</file>
+</qresource>
+</RCC>

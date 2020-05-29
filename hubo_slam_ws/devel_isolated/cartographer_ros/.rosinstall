@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/rainbow/Desktop/hubo_slam_ws/devel_isolated/cartographer_ros/setup.sh

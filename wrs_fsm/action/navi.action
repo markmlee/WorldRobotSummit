@@ -1,0 +1,22 @@
+#goal definition
+int32 use_marker #0:false, 1:true
+float64 pose_x
+float64 pose_y
+float64 pose_z
+float64 ori_x
+float64 ori_y
+float64 ori_z
+float64 ori_w
+---
+#result definition
+int32 result_flag
+float64 pose_x
+float64 pose_y
+float64 pose_z
+float64 ori_x
+float64 ori_y
+float64 ori_z
+float64 ori_w
+---
+#feedback
+int32 dummy

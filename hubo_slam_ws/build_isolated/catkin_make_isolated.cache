@@ -1,0 +1,2 @@
+cartographer:cartographer_ros/cartographer_ros:cartographer_ros/cartographer_ros_msgs:cartographer_ros/cartographer_rviz:ceres-solver:hubo_slam:microstrain_3DM_GX5
+-G Ninja -DCATKIN_DEVEL_PREFIX=/home/rainbow/Desktop/hubo_slam_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/rainbow/Desktop/hubo_slam_ws/install_isolated

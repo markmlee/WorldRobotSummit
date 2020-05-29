@@ -1,0 +1,4 @@
+<launch>
+  <node name="motion_director" pkg="wrs_fsm" type="motion_director" output="screen" />
+  <node name="RB5_test1.py" pkg="wrs_fsm" type="RB5_test1.py" output="screen" />
+</launch>

@@ -1,0 +1,2 @@
+#!/bin/bash
+roslaunch mobile_path_planning navi.launch

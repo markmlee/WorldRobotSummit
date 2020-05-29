@@ -1,0 +1,8 @@
+prefix=/home/rainbow/Desktop/hubo_slam_ws/install_isolated
+
+Name: microstrain_3dm_gx5_45
+Description: Description of microstrain_3dm_gx5_45
+Version: 0.0.1
+Cflags: -I/home/rainbow/Desktop/hubo_slam_ws/install_isolated/include
+Libs: -L/home/rainbow/Desktop/hubo_slam_ws/install_isolated/lib 
+Requires: roscpp cmake_modules tf2 tf2_ros std_msgs std_srvs geometry_msgs sensor_msgs nav_msgs
