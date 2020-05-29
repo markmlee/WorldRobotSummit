@@ -1,7 +1,9 @@
 # World Robot Summit 2019 Packages for MobileRB5
 
-![Screenshot](/images/wrs_slam.png)
-![Screenshot](/images/markers_Wrs.png)
+src="/images/wrs_slam.png" align="left" width="320" ></a>
+<a alt="indoor navigation" href="https://www.youtube.com/watch?v=6xdlTAI88cQ"><img src="/images/marker_Wrs.png" width="320" ></a>
+
+
 
 # Contents
 ### 1. PODO for MobileRB5 - motion controller
